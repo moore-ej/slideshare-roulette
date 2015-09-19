@@ -1,8 +1,3 @@
-var apiKey = "I8hah3BH";
-var secret = "KuOacjnO";
-
-var go;
-
 $( document ).ready(function() {
 	var gridster = $(".dashboard ul").gridster({
 		widget_margins: [10, 10],
