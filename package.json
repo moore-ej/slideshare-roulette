@@ -1,0 +1,22 @@
+{
+  "name": "slideshare_karakoke",
+  "version": "1.0.0",
+  "description": "Application to choose random slidedeck from SlideShare",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edward Moore",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "express": "^4.13.3",
+    "fs": "0.0.2",
+    "gridster": "^0.5.6",
+    "http": "0.0.0",
+    "jQuery": "^1.7.4",
+    "jquery": "^2.1.4",
+    "js-sha1": "^0.3.0",
+    "request": "^2.62.0"
+  }
+}

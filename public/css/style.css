@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: x-small;
+    color: #fff;
+}
+
+
+ul, ol {
+    list-style: none;
+}
+
+li {
+    background: #aaa;
+    cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+/* Gridster styles */
+.dashboard {
+    padding: 20px;
+    background-color: #666666;
+}
+
+.dashboard:hover .gridster {
+    opacity: 1;
+}
+
+.gridster {
+    width: 940px;
+    margin: 0 auto;
+
+    opacity: .8;
+
+    -webkit-transition: opacity .6s;
+    -moz-transition: opacity .6s;
+    -o-transition: opacity .6s;
+    -ms-transition: opacity .6s;
+    transition: opacity .6s;
+}
+
+.gridster .gs_w {
+    background: #FFF;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.widget {
+  padding: 5px;
+}
+.widget input[type="text"] {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+.widget input[type="text"]:focus,
+.widget input[type="text"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+.close-btn {
+  float: right;
+  
+}
+
+.close-btn:hover {
+  color: red;
+}
